@@ -1,3 +1,9 @@
+# NOTE
+This is a fixed version of the original nasbench courtesy of @nabenabe0928.
+This was needed to use newer versions of tensorflow.
+Python versions above 3.7 would require students to manually build tensorflow.
+Instead, we use the patched fix and keep it frozen as is for the lecture series.
+
 # Modifications from the original version
 1. Speedup the loading time (120 sec --> 30 sec (for the first load), 4 sec (for the second or later load) for full dataset in my local env)
 2. Serialization of data at the first load to significantly speedup
