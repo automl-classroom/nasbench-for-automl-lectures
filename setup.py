@@ -25,6 +25,6 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
         'tensorflow>=1.12.0',
-        'import pybase64',  # Seems this is required now
+        'pybase64',  # Seems this is required now
     ]
 )
